@@ -1,0 +1,14 @@
+- desc: 正确的用户名密码
+  account: "Account"
+  password: "password"
+  statusCode: 200
+
+- desc: 正确的用户名错误的密码
+  account: "Account"
+  password: "errorPassword"
+  statusCode: 500
+
+- desc: 错误的用户名正确的密码
+  account: "errorAccount"
+  password: "password"
+  statusCode: 500
